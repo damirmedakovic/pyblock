@@ -106,6 +106,7 @@ if __name__ == "__main__":
     blockchain.push_transaction("You", "Me", 10)
     blockchain.mine()
     blockchain.mine()
+    blockchain.mine()
     #The blockchain now consists of four immutable blocks
     print([x.to_string() for x in blockchain.history[1:]])
 
